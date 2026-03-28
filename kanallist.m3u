@@ -1,0 +1,16 @@
+#EXTM3U
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+
+# --- بەشی کەناڵە کوردییەکان ---
+#EXTINF:-1 tvg-id="KurdSat" tvg-logo="https://example.com/logos/kurdsat.png" group-title="Kurdish TV",KurdSat HD
+http://بەستەری-ڕاستەوخۆی-کەناڵەکە.m3u8
+
+#EXTINF:-1 tvg-id="Rudaw" tvg-logo="https://example.com/logos/rudaw.png" group-title="Kurdish TV",Rudaw TV
+http://بەستەری-ڕاستەوخۆی-ڕووداو.m3u8
+
+# --- بەشی فیلمە دۆبلاژکراوەکان ---
+#EXTINF:-1 tvg-logo="https://example.com/posters/movie1.jpg" group-title="Kurdish Movies",ناوی فیلمی یەکەم (دۆبلاژ)
+http://لینک یان-سێرڤەری-فیلمی-یەکەم.mp4
+
+#EXTINF:-1 tvg-logo="https://example.com/posters/movie2.jpg" group-title="Kurdish Movies",ناوی فیلمی دووەم (دۆبلاژ)
+http://لینک یان-سێرڤەری-فیلمی-دووەم.mkv
