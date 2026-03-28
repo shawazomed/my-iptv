@@ -1,16 +1,24 @@
 #EXTM3U
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 
-# --- بەشی کەناڵە کوردییەکان ---
-#EXTINF:-1 tvg-id="KurdSat" tvg-logo="https://example.com/logos/kurdsat.png" group-title="Kurdish TV",KurdSat HD
-http://بەستەری-ڕاستەوخۆی-کەناڵەکە.m3u8
+# --- کەناڵە کوردییەکان ---
 
-#EXTINF:-1 tvg-id="Rudaw" tvg-logo="https://example.com/logos/rudaw.png" group-title="Kurdish TV",Rudaw TV
-http://بەستەری-ڕاستەوخۆی-ڕووداو.m3u8
+#EXTINF:-1 tvg-id="Rudaw" tvg-logo="https://www.rudaw.net/Content/images/rudaw-logo.png" group-title="Kurdish Channels",Rudaw TV HD
+https://live.rudaw.net/rudaw/rudaw/playlist.m3u8
 
-# --- بەشی فیلمە دۆبلاژکراوەکان ---
-#EXTINF:-1 tvg-logo="https://example.com/posters/movie1.jpg" group-title="Kurdish Movies",ناوی فیلمی یەکەم (دۆبلاژ)
-http://لینک یان-سێرڤەری-فیلمی-یەکەم.mp4
+#EXTINF:-1 tvg-id="Kurdistan24" tvg-logo="https://www.kurdistan24.net/assets/images/logo.png" group-title="Kurdish Channels",Kurdistan 24
+https://k24live.tulix.tv/k24live/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://example.com/posters/movie2.jpg" group-title="Kurdish Movies",ناوی فیلمی دووەم (دۆبلاژ)
-http://لینک یان-سێرڤەری-فیلمی-دووەم.mkv
+#EXTINF:-1 tvg-id="Waar" tvg-logo="https://waar.media/wp-content/uploads/2021/04/WAAR-TV-Logo.png" group-title="Kurdish Channels",Waar TV
+https://waartv.tulix.tv/waartv/index.m3u8
+
+#EXTINF:-1 tvg-id="Ava" tvg-logo="https://avatv.net/assets/images/logo.png" group-title="Kurdish Channels",AVA Entertainment
+https://avatv.tulix.tv/avatv/index.m3u8
+
+# --- بەشی فیلمە دۆبلاژکراوەکان (نموونە) ---
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/1E5baAa91pXvGvNiVMGohp0uMew.jpg" group-title="Kurdish Movies",Avatar: The Way of Water (Doblaj)
+http://لێرەدا-لینکی-فیلمی-ئەڤەتار-دابنێ.mp4
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w500/q6y0GoS0vUtoS0pUr9v9vS6T79c.jpg" group-title="Kurdish Movies",The Lion King (Doblaj)
+http://لێرەدا-لینکی-فیلمی-شێرە-پاشا-دابنێ.mp4
